@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let hero of _heroList">
+    <input type="checkbox" [value]="hero.checked">
+    <span>{{hero.name}}</span>
+  </li>
+</ul>
